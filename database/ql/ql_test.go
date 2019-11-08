@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	_ "github.com/cznic/ql/driver"
-	"github.com/golang-migrate/migrate/v4"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/kgrieco/migrate/v4"
+	_ "github.com/kgrieco/migrate/v4/source/file"
 	dt "github.com/kgrieco/migrate/v4/database/testing"
 )
 

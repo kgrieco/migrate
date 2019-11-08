@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/kgrieco/migrate/v4"
 	"github.com/hashicorp/go-multierror"
 	"github.com/kgrieco/migrate/v4/database"
 )

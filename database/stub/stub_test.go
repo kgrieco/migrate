@@ -1,9 +1,9 @@
 package stub
 
 import (
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/source"
-	"github.com/golang-migrate/migrate/v4/source/stub"
+	"github.com/kgrieco/migrate/v4"
+	"github.com/kgrieco/migrate/v4/source"
+	"github.com/kgrieco/migrate/v4/source/stub"
 	"testing"
 
 	dt "github.com/kgrieco/migrate/v4/database/testing"

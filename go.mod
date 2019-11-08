@@ -11,9 +11,9 @@ require (
 	github.com/fsouza/fake-gcs-server v1.7.0
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/gocql/gocql v0.0.0-20190301043612-f6df8288f9b4
-	github.com/golang-migrate/migrate/v4 v4.7.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/hashicorp/go-multierror v1.0.0
+	github.com/kgrieco/migrate/v4 v4.7.0
 	github.com/kshvakov/clickhouse v1.3.5
 	github.com/lib/pq v1.0.0
 	github.com/mattn/go-sqlite3 v1.10.0

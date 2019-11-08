@@ -3,8 +3,8 @@ package cli
 import (
 	"errors"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/kgrieco/migrate/v4"
+	_ "github.com/kgrieco/migrate/v4/source/file"
 	_ "github.com/kgrieco/migrate/v4/database/stub" // TODO remove again
 	"os"
 	"path/filepath"

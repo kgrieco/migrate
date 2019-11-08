@@ -11,8 +11,8 @@ import (
 )
 
 import (
-	"github.com/golang-migrate/migrate/v4/source"
-	sStub "github.com/golang-migrate/migrate/v4/source/stub"
+	"github.com/kgrieco/migrate/v4/source"
+	sStub "github.com/kgrieco/migrate/v4/source/stub"
 	dStub "github.com/kgrieco/migrate/v4/database/stub"
 )
 
@@ -166,7 +166,7 @@ func ExampleNewWithSourceInstance() {
 
 	// Create driver instance from DummyInstance di.
 	// Check each driver if it support the WithInstance function.
-	// `import "github.com/golang-migrate/migrate/v4/source/stub"`
+	// `import "github.com/kgrieco/migrate/v4/source/stub"`
 	instance, err := sStub.WithInstance(di, &sStub.Config{})
 	if err != nil {
 		log.Fatal(err)

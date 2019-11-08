@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/kgrieco/migrate/v4"
 	"io"
 	"strconv"
 	"strings"
@@ -18,8 +18,8 @@ import (
 
 	"github.com/dhui/dktest"
 
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/kgrieco/migrate/v4/dktesting"
+	_ "github.com/kgrieco/migrate/v4/source/file"
 	dt "github.com/kgrieco/migrate/v4/database/testing"
 )
 

@@ -13,8 +13,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	iurl "github.com/golang-migrate/migrate/v4/internal/url"
-	"github.com/golang-migrate/migrate/v4/source"
+	iurl "github.com/kgrieco/migrate/v4/internal/url"
+	"github.com/kgrieco/migrate/v4/source"
 	"github.com/kgrieco/migrate/v4/database"
 )
 

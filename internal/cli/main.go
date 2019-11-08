@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/kgrieco/migrate/v4"
+	"github.com/kgrieco/migrate/v4/source"
 	"github.com/kgrieco/migrate/v4/database"
 )
 
