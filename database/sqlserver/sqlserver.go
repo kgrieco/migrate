@@ -10,8 +10,8 @@ import (
 
 	mssql "github.com/denisenkom/go-mssqldb" // mssql support
 	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
+	"github.com/kgrieco/migrate/v4/database"
 )
 
 func init() {

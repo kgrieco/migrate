@@ -15,7 +15,7 @@ import (
 	sdb "cloud.google.com/go/spanner/admin/database/apiv1"
 
 	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/kgrieco/migrate/v4/database"
 
 	"github.com/hashicorp/go-multierror"
 	"google.golang.org/api/iterator"
