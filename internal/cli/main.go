@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/golang-migrate/migrate/v4"
+	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/golang-migrate/migrate/v4/source"
-	"github.com/kgrieco/migrate/v4/database"
 )
 
 const defaultTimeFormat = "20060102150405"

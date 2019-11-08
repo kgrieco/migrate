@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/golang-migrate/migrate/v4"
+	"github.com/golang-migrate/migrate/v4/database"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/kgrieco/migrate/v4/database"
 	"github.com/lib/pq"
 )
 
