@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "github.com/kgrieco/migrate/v4/database/testing"
 	_ "github.com/mattn/go-sqlite3"
 )
 

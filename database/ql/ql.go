@@ -12,7 +12,7 @@ import (
 
 	_ "github.com/cznic/ql/driver"
 	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/kgrieco/migrate/v4/database"
 )
 
 func init() {
